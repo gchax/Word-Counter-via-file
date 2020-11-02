@@ -35,7 +35,7 @@ int countWords(char c, FILE* ptr)
 	int state = 0, n = 0;
 	while ((c = fgetc(ptr)) != EOF)
 	{
-		if (c == ' ' || c == '\n' || c == '\t' || c == '\0') state = 0;
+		if (c == ' ' || c == '\n' || c == '\t' || c == '\0' || c == '.' || c == ',' || c == '"' || c == '(' || c == ')' || c == '[' || c == ']' || c == '{' || c == '}') state = 0;
 		else if (state == 0)
 		{
 			state = 1;

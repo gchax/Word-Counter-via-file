@@ -1,6 +1,6 @@
 	This is the program for counting words from a file.
 You can try putting a lot of spaces, tabs, or enter new lines.
-like				this     ,or maybe
+like				this     , or maybe
 
 	 	 
 
@@ -8,7 +8,7 @@ like				this     ,or maybe
 
 					
 
-this. 	 	
-	 
-It won't matter at		
+this
+, 	 	
+it	 won't matter at		
 all.
